@@ -1,0 +1,1 @@
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\MemberApp.UWP.csproj;x86

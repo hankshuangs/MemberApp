@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="MemberApp.Views.LoginPage"
+             mc:Ignorable="d">
+    
+        <StackLayout Spacing="10" Padding="10" VerticalOptions="Center">
+            <Label Text="請輸入帳號："
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Text="{Binding Keyword, Mode=TwoWay}" />
+            <Label Text="請輸入密碼："
+                HorizontalOptions="CenterAndExpand" />
+            <Entry Text=""/>
+            <Button 
+                Command="{Binding LoginCommand}" 
+                x:Name="BtnLogin"
+                Text="登入"/>
+            <ActivityIndicator IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"/>
+            <Label Text="{Binding StatusMessage}" TextColor="Green" FontSize="24"/>
+        </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+
+namespace MemberApp.RestClient
+{
+    /// <summary>
+    /// RestClient implements methods for calling CRUD operations
+    /// using HTTP.
+    /// </summary>
+    public class RestClient<T>
+    {
+        private const string WebServiceUrl = "http://192.168.168.52/api/Employees/";
+        //private const string WebServiceUrl = "http://220.134.223.102/api/Employees/";
+
+        public async Task<List<T>> GetAsync()
+        {
+            var httpClient = new HttpClient();
+
+            var json = await httpClient.GetStringAsync(WebServiceUrl);
+
+            var employees = JsonConvert.DeserializeObject<List<T>>(json);
+
+            return employees;
+        }
+
+        public async Task<bool> PostAsync(T t)
+        {
+            var httpClient = new HttpClient();
+
+            var json = JsonConvert.SerializeObject(t);
+
+            HttpContent httpContent = new StringContent(json);
+
+            httpContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var result = await httpClient.PostAsync(WebServiceUrl, httpContent);
+
+            return result.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> PutAsync(int id, T t)
+        {
+            var httpClient = new HttpClient();
+
+            var json = JsonConvert.SerializeObject(t);
+
+            HttpContent httpContent = new StringContent(json);
+
+            httpContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+
+            var result = await httpClient.PutAsync(WebServiceUrl + id, httpContent);
+
+            return result.IsSuccessStatusCode;
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var httpClient = new HttpClient();
+
+            var response = await httpClient.DeleteAsync(WebServiceUrl + id);
+
+            return response.IsSuccessStatusCode;
+        }
+
+        //public async Task<List<T>> GetByKeywordAsAsync(string keyword)
+        //{
+        //    var httpClient = new HttpClient();
+
+        //    var json = await httpClient.GetStringAsync(WebServiceUrl + "Search/" + keyword);
+
+        //    var employees = JsonConvert.DeserializeObject<List<T>>(json);
+
+        //    return employees;
+        //}
+
+        public async Task<List<T>> GetStaffAsAsync(string keyword)
+        {
+            var httpClient = new HttpClient();
+
+            var json = await httpClient.GetStringAsync(WebServiceUrl + "Search/" + keyword);
+
+            var staff = JsonConvert.DeserializeObject<List<T>>(json);
+
+            return staff;
+        }
+
+    }
+}
