@@ -10,7 +10,7 @@ using MemberApp.Services;
 
 namespace MemberApp.ViewModels
 {
-    class MainViewModel : INotifyPropertyChanged
+    public class MainViewModel : INotifyPropertyChanged
     {
         private List<Staff> _StaffList;
         private Staff _selectedStaf = new Staff();
@@ -81,7 +81,7 @@ namespace MemberApp.ViewModels
         {
             InitializeDataAsync();
         }
-        private async Task InitializeDataAsync()
+        private async void InitializeDataAsync()
         {
             IsBusy = true;
             var staffServices = new StaffServices();

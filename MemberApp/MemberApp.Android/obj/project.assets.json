@@ -1972,24 +1972,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hanks\\.nuget\\packages\\": {},
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp.Android\\MemberApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp.Android\\MemberApp.Android.csproj",
       "projectName": "MemberApp.Android",
-      "projectPath": "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp.Android\\MemberApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Hanks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp.Android\\MemberApp.Android.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hanks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2003,8 +2003,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj": {
-              "projectPath": "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj"
+            "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj"
             }
           }
         }

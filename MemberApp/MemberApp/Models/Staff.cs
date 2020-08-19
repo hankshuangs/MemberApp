@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MemberApp.Models
 {
-    class Staff
+    public class Staff
     {
         public int Sid { get; set; }
         public string Staff_Id { get; set; }

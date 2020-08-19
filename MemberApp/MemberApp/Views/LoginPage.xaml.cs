@@ -16,7 +16,7 @@ namespace MemberApp.Views
         public LoginPage()
         {
             InitializeComponent();
-
         }
     }
+
 }

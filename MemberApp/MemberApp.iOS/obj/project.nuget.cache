@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dRhwd2/Z1PX8bqFaGtwXNF3yaleuFmi6cLpzFN44yM36ZUC3bibMjlTG33W+njtjLPJ5IuryljqFstwpjTy9Dw==",
+  "dgSpecHash": "kUaMx9uBHAqcCfMAP37M2Cs9qnA/tU25R1dIOGxFW49u/MmX9OK6adpX5wNzPSYGJhTWDLGR5DAaQiRZeM61+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp.iOS\\MemberApp.iOS.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp.iOS\\MemberApp.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hanks\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Hanks\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
   "logs": []
 }
