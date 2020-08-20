@@ -12,23 +12,44 @@ namespace MemberApp.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
-        private List<Staff> _StaffList;
-        private Staff _selectedStaf = new Staff();
-        private List<Staff> _searchedStaff;
-        private string _keyword;
+        private List<Staff> _staffList;
+        private string _account=string.Empty;
+        private string _password = string.Empty;
         private bool _isBusy = false;
-        private string _statusMessage;
+        private string _statusMessage = string.Empty;
 
         //取得會員資訊
         public List<Staff> StaffList
         {
             get
             {
-                return _StaffList;
+                return _staffList;
             }
             set
             {
-                _StaffList = value;
+                _staffList = value;
+                OnPropertyChanged();
+            }
+        }
+
+        //帳號
+        public string Account
+        {
+            get { return _account; }
+            set
+            {
+                _account = value;
+                OnPropertyChanged();
+            }
+        }
+
+        //帳號
+        public string Password
+        {
+            get { return _password; }
+            set
+            {
+                _password = value;
                 OnPropertyChanged();
             }
         }
@@ -42,19 +63,30 @@ namespace MemberApp.ViewModels
                 {
                     IsBusy = true;
                     var staffServices = new StaffServices();
-                    StaffList = await staffServices.GetStaffAsync(_keyword);
+                    try
+                    {
+                        if (string.IsNullOrWhiteSpace(_account) || string.IsNullOrWhiteSpace(_password))
+                        {
+                            StatusMessage = "帳號或密碼未輸入";
+                            IsBusy = false;
+                            return;
+                        }
+
+                        StaffList = await staffServices.GetStaffAsync(_account, _password);
+                        List<Staff> aa = StaffList;
+                        if (StaffList.Count == 0)
+                        {
+                            StatusMessage = "帳號或密碼錯誤";
+                            IsBusy = false;
+                            return;
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        StatusMessage = "無法連線伺服器\n"+ e.Message;
+                    }
                     IsBusy = false;
                 });
-            }
-        }
-
-        public string Keyword
-        {
-            get { return _keyword; }
-            set
-            {
-                _keyword = value;
-                OnPropertyChanged();
             }
         }
 
@@ -79,7 +111,7 @@ namespace MemberApp.ViewModels
         }
         public MainViewModel()
         {
-            InitializeDataAsync();
+            //InitializeDataAsync();
         }
         private async void InitializeDataAsync()
         {

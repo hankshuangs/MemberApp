@@ -44,10 +44,10 @@ namespace MemberApp.Services
         //    return StaffsList;
         //}
 
-        public async Task<List<Staff>> GetStaffAsync(string keyword)
+        public async Task<List<Staff>> GetStaffAsync(string account, string password)
         {
             RestClient<Staff> restClient = new RestClient<Staff>();
-            var StaffsList = await restClient.GetStaffAsAsync(keyword);
+            var StaffsList = await restClient.GetStaffAsAsync(account, password);
             return StaffsList;
         }
     }

@@ -15,19 +15,30 @@
         Spacing="10"
         VerticalOptions="Center">
         <Label HorizontalOptions="CenterAndExpand" Text="請輸入帳號：" />
-        <Entry Text="{Binding Keyword, Mode=TwoWay}" />
+        <Entry
+            x:Name="EtyAccount"
+            ClearButtonVisibility="WhileEditing"
+            Keyboard="Numeric"
+            MaxLength="8"
+            Text="{Binding Account, Mode=TwoWay}" />
         <Label HorizontalOptions="CenterAndExpand" Text="請輸入密碼：" />
-        <Entry Text="" />
+        <Entry
+            x:Name="EtyPassword"
+            ClearButtonVisibility="WhileEditing"
+            IsPassword="true"
+            Text="{Binding Password, Mode=TwoWay}" />
         <Button
             x:Name="BtnClean"
-            Text="清空"
-            />
+            Clicked="BtnClean_OnClicked"
+            Text="清空" />
         <Button
             x:Name="BtnLogin"
+            Clicked="BtnLogin_OnClicked"
             Command="{Binding LoginCommand}"
             Text="登入" />
         <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" />
         <Label
+            x:Name="LblMsg"
             FontSize="24"
             Text="{Binding StatusMessage}"
             TextColor="Green" />

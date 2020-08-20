@@ -13,8 +13,8 @@ namespace MemberApp.RestClient
     /// </summary>
     public class RestClient<T>
     {
-        private const string WebServiceUrl = "http://192.168.168.52/api/value/";
-        //private const string WebServiceUrl = "http://220.134.223.102/api/value/";
+        //private const string WebServiceUrl = "http://192.168.168.52/api/value/";
+        private const string WebServiceUrl = "http://220.134.223.102/api/Staff/";
 
         public async Task<List<T>> GetAsync()
         {
@@ -66,22 +66,11 @@ namespace MemberApp.RestClient
             return response.IsSuccessStatusCode;
         }
 
-        //public async Task<List<T>> GetByKeywordAsAsync(string keyword)
-        //{
-        //    var httpClient = new HttpClient();
-
-        //    var json = await httpClient.GetStringAsync(WebServiceUrl + "Search/" + keyword);
-
-        //    var employees = JsonConvert.DeserializeObject<List<T>>(json);
-
-        //    return employees;
-        //}
-
-        public async Task<List<T>> GetStaffAsAsync(string keyword)
+        public async Task<List<T>> GetStaffAsAsync(string account,string password)
         {
             var httpClient = new HttpClient();
 
-            var json = await httpClient.GetStringAsync(WebServiceUrl + "Search/" + keyword);
+            var json = await httpClient.GetStringAsync(WebServiceUrl + account + "/"+ password);
 
             var staff = JsonConvert.DeserializeObject<List<T>>(json);
 

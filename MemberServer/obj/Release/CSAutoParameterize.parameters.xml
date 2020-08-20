@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MyContext-Web.config Connection String" description="MyContext 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="server=localhost;port=3306;database=member;Convert Zero Datetime=true;uid=root;password=P@ssw0rd" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\USER\\source\\repos\\MemberApp\\MemberServer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MyContext']/@connectionString" />
+  </parameter>
+  <parameter name="StaffContext-Web.config Connection String" description="StaffContext 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=StaffContext-20200820161648; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|StaffContext-20200820161648.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\USER\\source\\repos\\MemberApp\\MemberServer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='StaffContext']/@connectionString" />
+  </parameter>
+  <parameter name="MemberMVCContext-Web.config Connection String" description="MemberMVCContext 應用程式在 web.config 中用來存取資料庫的連接字串。" defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=MemberMVCContext-20200820161921; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|MemberMVCContext-20200820161921.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\USER\\source\\repos\\MemberApp\\MemberServer\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MemberMVCContext']/@connectionString" />
+  </parameter>
+</parameters>

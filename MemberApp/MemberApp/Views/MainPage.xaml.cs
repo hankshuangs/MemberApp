@@ -5,14 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using MemberApp.ViewModels;
 
 namespace MemberApp
 {
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public MainPage(MainViewModel mainViewModel)
         {
             InitializeComponent();
+            BindingContext = mainViewModel;
         }
     }
 }

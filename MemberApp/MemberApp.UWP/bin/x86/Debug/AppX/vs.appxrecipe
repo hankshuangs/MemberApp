@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Machine>IBUS-168-52</Machine>
-    <WindowsUser>Hanks</WindowsUser>
+    <WindowsUser>USER</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=fd247575-05fc-41dd-a15a-2296f14cd408</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>A30D359AD4BD2A29455111BBA68F5585DF05CA3D6F63DDEC6DCEAB5325A85086</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>b548648e-4937-4ee5-8437-d5a6a4ed33b9_1.0.0.0_x86__k6d12sase4qcj</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>b548648e-4937-4ee5-8437-d5a6a4ed33b9_k6d12sase4qcj!App</RegisteredUserModeAppID>
@@ -27,18 +27,18 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T08:56:45.551</Modified>
+      <Modified>2020-08-20T14:52:04.332</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\MemberApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\MemberApp.UWP.exe">
       <PackagePath>entrypoint\MemberApp.UWP.exe</PackagePath>
-      <Modified>2020-08-19T08:56:43.878</Modified>
+      <Modified>2020-08-20T14:52:03.294</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2019-11-08T16:56:44.000</Modified>
     </AppxPackagedFile>
@@ -46,35 +46,43 @@
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T11:16:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-29T18:58:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.essentials\1.5.3.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\xam.plugins.settings\3.1.1\lib\UAP10\Plugin.Settings.Abstractions.dll">
+      <PackagePath>Plugin.Settings.Abstractions.dll</PackagePath>
+      <Modified>2017-10-17T15:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\xam.plugins.settings\3.1.1\lib\UAP10\Plugin.Settings.dll">
+      <PackagePath>Plugin.Settings.dll</PackagePath>
+      <Modified>2017-10-17T15:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\xamarin.essentials\1.5.3.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
       <Modified>2020-05-11T16:41:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2020-08-05T20:12:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
       <Modified>2020-08-05T20:12:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
       <Modified>2020-08-05T20:12:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-08-05T20:12:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\bin\Debug\netstandard2.0\MemberApp.dll">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\bin\Debug\netstandard2.0\MemberApp.dll">
       <PackagePath>MemberApp.dll</PackagePath>
-      <Modified>2020-08-19T09:05:08.270</Modified>
+      <Modified>2020-08-20T14:51:58.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-29T18:58:38.000</Modified>
     </AppxPackagedFile>
@@ -82,160 +90,160 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T10:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\xamarin.forms\4.8.0.1269\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-08-05T20:12:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.898</Modified>
+      <Modified>2020-08-19T12:00:05.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.900</Modified>
+      <Modified>2020-08-19T12:00:05.157</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.902</Modified>
+      <Modified>2020-08-19T12:00:05.157</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.904</Modified>
+      <Modified>2020-08-19T12:00:05.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.978</Modified>
+      <Modified>2020-08-19T12:00:05.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.980</Modified>
+      <Modified>2020-08-19T12:00:05.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.993</Modified>
+      <Modified>2020-08-19T12:00:05.158</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.995</Modified>
+      <Modified>2020-08-19T12:00:05.159</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.997</Modified>
+      <Modified>2020-08-19T12:00:05.159</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:13.998</Modified>
+      <Modified>2020-08-19T12:00:05.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.000</Modified>
+      <Modified>2020-08-19T12:00:05.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.002</Modified>
+      <Modified>2020-08-19T12:00:05.160</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.005</Modified>
+      <Modified>2020-08-19T12:00:05.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.007</Modified>
+      <Modified>2020-08-19T12:00:05.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.008</Modified>
+      <Modified>2020-08-19T12:00:05.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.009</Modified>
+      <Modified>2020-08-19T12:00:05.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.010</Modified>
+      <Modified>2020-08-19T12:00:05.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.012</Modified>
+      <Modified>2020-08-19T12:00:05.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.013</Modified>
+      <Modified>2020-08-19T12:00:05.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.015</Modified>
+      <Modified>2020-08-19T12:00:05.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.017</Modified>
+      <Modified>2020-08-19T12:00:05.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.019</Modified>
+      <Modified>2020-08-19T12:00:05.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.021</Modified>
+      <Modified>2020-08-19T12:00:05.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.022</Modified>
+      <Modified>2020-08-19T12:00:05.164</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.026</Modified>
+      <Modified>2020-08-19T12:00:05.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.027</Modified>
+      <Modified>2020-08-19T12:00:05.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-19T03:55:14.029</Modified>
+      <Modified>2020-08-19T12:00:05.165</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-08-19T03:55:14.032</Modified>
+      <Modified>2020-08-19T12:00:05.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\MemberApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\MemberApp.UWP.xr.xml">
       <PackagePath>MemberApp.UWP.xr.xml</PackagePath>
-      <Modified>2020-08-19T04:13:36.111</Modified>
+      <Modified>2020-08-19T12:00:05.304</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-08-19T08:56:43.724</Modified>
+      <Modified>2020-08-20T14:52:03.170</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-08-19T08:56:43.724</Modified>
+      <Modified>2020-08-20T14:52:03.170</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -245,62 +253,62 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T09:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-05-19T01:27:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-08-19T04:13:37.165</Modified>
+      <Modified>2020-08-20T12:41:09.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\Core\MemberApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\Core\MemberApp.UWP.exe">
       <PackagePath>MemberApp.UWP.exe</PackagePath>
-      <Modified>2020-08-19T08:56:45.547</Modified>
+      <Modified>2020-08-20T14:52:04.328</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\Hanks\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\USER\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

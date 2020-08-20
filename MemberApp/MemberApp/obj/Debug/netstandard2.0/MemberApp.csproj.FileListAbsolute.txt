@@ -13,7 +13,6 @@ C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.csproj.CoreCompileInputs.cache
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.csprojAssemblyReference.cache
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
@@ -43,3 +42,4 @@ C:\Users\Hanks\source\test\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.
 C:\Users\Hanks\source\test\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.pdb
 C:\Users\Hanks\source\test\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.csproj.CoreCompileInputs.cache
 C:\Users\Hanks\source\test\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.csprojAssemblyReference.cache

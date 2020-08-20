@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "k33ga+Ry5CMd+efhU5G61jnFhU0E2NsE46X6R87jG5fRW5rp1c1/TrGhB4TilCSy0JbepXQZV9YlHLLhZHGt1w==",
+  "dgSpecHash": "C7LChunCEMVONo1Vplf1u3mBUIrjEJitZS8QnI4zLO59bBlG9chI4KFHZ8X2jUGenNwGIEgwkOZ/C+1u441FAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hanks\\source\\test\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj",
+  "projectFilePath": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Hanks\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Hanks\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Hanks\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\Hanks\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Hanks\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Hanks\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
   "logs": []
 }
