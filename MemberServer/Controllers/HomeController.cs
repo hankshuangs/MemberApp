@@ -13,7 +13,18 @@ namespace MemberServer.Controllers
     {
         public ActionResult Index()
         {
-            DataTable dt1; //查詢結果
+
+
+           DataSet Dt1 = new MySQLHelper("MyContext").ExecuteDataSet("SELECT i_id,i_name FROM member.item;");
+
+
+
+
+
+
+
+
+                DataTable dt1; //查詢結果
             //查詢
             string SQL = "SELECT i_id,i_name FROM member.item;";
             string MyContext = ConfigurationManager.ConnectionStrings["MyContext"].ConnectionString;

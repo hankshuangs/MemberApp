@@ -19,6 +19,10 @@
         <Label HorizontalOptions="CenterAndExpand" Text="請輸入密碼：" />
         <Entry Text="" />
         <Button
+            x:Name="BtnClean"
+            Text="清空"
+            />
+        <Button
             x:Name="BtnLogin"
             Command="{Binding LoginCommand}"
             Text="登入" />

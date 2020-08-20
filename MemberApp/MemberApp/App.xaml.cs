@@ -10,7 +10,8 @@ namespace MemberApp
         public App()
         {
             InitializeComponent();
-
+            //Helpers.Settings.Account = "10611515";
+            //Helpers.Settings.Password = "333";
             MainPage = new NavigationPage(new LoginPage());
         }
 
