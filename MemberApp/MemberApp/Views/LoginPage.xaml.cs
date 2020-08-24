@@ -20,18 +20,10 @@ namespace MemberApp.Views
             EtyPassword.Text = Helpers.Settings.Password;
         }
 
-        private async void BtnLogin_OnClicked(object sender, EventArgs e)
+        private void BtnLogin_OnClicked(object sender, EventArgs e)
         {
-             MainViewModel  mainViewModel =  BindingContext as MainViewModel;
-
-            if ( !(mainViewModel.StaffList == null || mainViewModel.StaffList.Count==0))
-            {
-                //登入成功
-                Helpers.Settings.Account = EtyAccount.Text;
-                Helpers.Settings.Password = EtyPassword.Text;
-                mainViewModel.StatusMessage = "";//可登入就清空訊息
-                await Navigation.PushAsync(new MainPage(mainViewModel));
-            }            
+            MainViewModel  mainViewModel =  BindingContext as MainViewModel;
+            mainViewModel.Navigation = Navigation;          
         }
 
         private void BtnClean_OnClicked(object sender, EventArgs e)

@@ -37,13 +37,6 @@ namespace MemberApp.Services
             return IsSuccessStatusCode;
         }
 
-        //public async Task<List<Staff>> GetStaffByKeywordAsync(string keyword)
-        //{
-        //    RestClient<Staff> restClient = new RestClient<Staff>();
-        //    var StaffsList = await restClient.GetByKeywordAsAsync(keyword);
-        //    return StaffsList;
-        //}
-
         public async Task<List<Staff>> GetStaffAsync(string account, string password)
         {
             RestClient<Staff> restClient = new RestClient<Staff>();

@@ -17,6 +17,20 @@ namespace MemberApp.ViewModels
         private string _password = string.Empty;
         private bool _isBusy = false;
         private string _statusMessage = string.Empty;
+        private INavigation _navigation;
+
+        public INavigation Navigation
+        {
+            get
+            {
+                return _navigation;
+            }
+            set
+            {
+                _navigation = value;
+                OnPropertyChanged();
+            }
+        }
 
         //取得會員資訊
         public List<Staff> StaffList
@@ -85,7 +99,12 @@ namespace MemberApp.ViewModels
                     {
                         StatusMessage = "無法連線伺服器\n"+ e.Message;
                     }
+                    StatusMessage = "";
+                    //登入成功
                     IsBusy = false;
+                    Helpers.Settings.Account = _account;
+                    Helpers.Settings.Password = _password;
+                    await Navigation.PushAsync(new MainPage(this));
                 });
             }
         }
