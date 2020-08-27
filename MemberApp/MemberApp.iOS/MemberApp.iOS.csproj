@@ -136,4 +136,13 @@
       <Name>MemberApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\friend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\home.png" />
+  </ItemGroup>
 </Project>

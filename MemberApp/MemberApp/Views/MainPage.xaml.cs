@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using MemberApp.ViewModels;
 
-namespace MemberApp
-{
+namespace MemberApp.Views
+{ 
     public partial class MainPage : ContentPage
     {
         public MainPage(MainViewModel mainViewModel)

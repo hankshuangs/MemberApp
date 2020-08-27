@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 using MemberApp.Models;
 using MemberApp.Services;
+using MemberApp.Views;
 
 namespace MemberApp.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged
     {
         private List<Staff> _staffList;
-        private string _account=string.Empty;
+        private string _account = string.Empty;
         private string _password = string.Empty;
         private bool _isBusy = false;
         private string _statusMessage = string.Empty;
@@ -87,7 +86,13 @@ namespace MemberApp.ViewModels
                         }
 
                         StaffList = await staffServices.GetStaffAsync(_account, _password);
-                        List<Staff> aa = StaffList;
+
+                        if (StaffList == null)
+                        {
+                            StatusMessage = "無法連線伺服器";
+                            IsBusy = false;
+                            return;
+                        }
                         if (StaffList.Count == 0)
                         {
                             StatusMessage = "帳號或密碼錯誤";
@@ -97,14 +102,18 @@ namespace MemberApp.ViewModels
                     }
                     catch (Exception e)
                     {
-                        StatusMessage = "無法連線伺服器\n"+ e.Message;
+                        StatusMessage = "無法連線伺服器\n" + e.Message;
+                        IsBusy = false;
+                        return;
                     }
-                    StatusMessage = "";
+
                     //登入成功
+                    StatusMessage = "";
                     IsBusy = false;
                     Helpers.Settings.Account = _account;
                     Helpers.Settings.Password = _password;
-                    await Navigation.PushAsync(new MainPage(this));
+                    Application.Current.MainPage= new MyTabbedPage(this);
+                    //await Navigation.PushAsync(new MyTabbedPage(this));
                 });
             }
         }

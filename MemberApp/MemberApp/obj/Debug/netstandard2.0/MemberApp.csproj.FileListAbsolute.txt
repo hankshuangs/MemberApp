@@ -4,7 +4,6 @@ C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\bin\Debug\netstandard2
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\bin\Debug\netstandard2.0\MemberApp.pdb
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.csprojAssemblyReference.cache
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.AssemblyInfoInputs.cache
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.AssemblyInfo.cs
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.dll
@@ -43,3 +42,9 @@ C:\Users\Hanks\source\test\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.
 C:\Users\Hanks\source\test\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.csproj.CoreCompileInputs.cache
 C:\Users\Hanks\source\test\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\MemberApp.csprojAssemblyReference.cache
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\NewMemberPage.xaml.g.cs
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\Page2.xaml.g.cs
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\TabbedControlPage.xaml.g.cs

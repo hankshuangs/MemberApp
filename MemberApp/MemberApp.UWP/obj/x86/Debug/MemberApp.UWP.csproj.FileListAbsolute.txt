@@ -203,3 +203,8 @@ C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\obj\x86\Debug\Multi
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160427180000000.json
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885022160000000.json
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\Plugin.Settings.Abstractions.pdb
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\Plugin.Settings.dll
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\bin\x86\Debug\Plugin.Settings.pdb
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.UWP\obj\x86\Debug\Plugin.Settings.pri.xml

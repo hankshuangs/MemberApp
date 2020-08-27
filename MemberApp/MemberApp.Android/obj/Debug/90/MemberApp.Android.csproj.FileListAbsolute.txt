@@ -1454,3 +1454,8 @@ C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\an
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\compressed_assemblies.armeabi-v7a.o
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\compressed_assemblies.x86.o
 C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\compressed_assemblies.x86_64.o
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\assets\Plugin.Settings.Abstractions.dll
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\assets\Plugin.Settings.Abstractions.dll.mdb
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\assets\Plugin.Settings.dll
+C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\assets\Plugin.Settings.dll.mdb

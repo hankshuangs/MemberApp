@@ -372,3 +372,4 @@ C:\Users\Hanks\source\test\MemberApp\MemberServer\obj\Debug\MemberServer.dll
 C:\Users\Hanks\source\test\MemberApp\MemberServer\obj\Debug\MemberServer.pdb
 C:\Users\Hanks\source\test\MemberApp\MemberServer\bin\System.ComponentModel.Annotations.dll
 C:\Users\USER\source\repos\MemberApp\MemberServer\bin\System.ComponentModel.Annotations.dll
+C:\Users\Hanks\source\repos\MemberApp\MemberServer\bin\System.ComponentModel.Annotations.dll
