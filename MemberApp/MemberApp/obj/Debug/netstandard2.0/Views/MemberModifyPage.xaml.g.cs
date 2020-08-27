@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MemberApp.Views.NewMemberPage.xaml", "Views/NewMemberPage.xaml", typeof(global::MemberApp.Views.NewMemberPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("MemberApp.Views.MemberModifyPage.xaml", "Views/MemberModifyPage.xaml", typeof(global::MemberApp.Views.MemberModifyPage))]
 
 namespace MemberApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\NewMemberPage.xaml")]
-    public partial class NewMemberPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MemberModifyPage.xaml")]
+    public partial class MemberModifyPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(NewMemberPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MemberModifyPage));
         }
     }
 }

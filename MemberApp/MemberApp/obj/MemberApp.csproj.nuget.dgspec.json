@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj": {}
+    "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj": {
+    "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj",
         "projectName": "MemberApp",
-        "projectPath": "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj",
-        "packagesPath": "C:\\Users\\Hanks\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hanks\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\obj\\",
+        "projectPath": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\MemberApp.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\source\\repos\\MemberApp\\MemberApp\\MemberApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hanks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

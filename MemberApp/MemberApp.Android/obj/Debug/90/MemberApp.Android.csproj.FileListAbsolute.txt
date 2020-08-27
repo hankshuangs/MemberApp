@@ -1459,3 +1459,7 @@ C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\a
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\assets\Plugin.Settings.Abstractions.dll.mdb
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\assets\Plugin.Settings.dll
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\android\assets\Plugin.Settings.dll.mdb
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\res\drawable\door.png
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\res\drawable\friend.png
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\res\drawable\home.png
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp.Android\obj\Debug\90\res\drawable\member.png

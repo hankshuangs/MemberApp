@@ -10,26 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace MemberApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class NewMemberPage : ContentPage
+    public partial class MemberModifyPage : ContentPage
     {
-        public NewMemberPage()
+        public MemberModifyPage()
         {
             InitializeComponent();
         }
-		public string DisplayName
-		{
-			get;
-			set;
-		}
-		public string IconName
-		{
-			get;
-			set;
-		}
-		public string DisplayTitle
-		{
-			get;
-			set;
-		}
-	}
+    }
 }

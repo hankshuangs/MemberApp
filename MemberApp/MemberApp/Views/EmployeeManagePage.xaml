@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MemberApp.Views.EmployeeManagePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="員工管理"
+                VerticalOptions="CenterAndExpand" />
+            <Button
+                x:Name="BtnEmployeeAdd"
+                Clicked="BtnEmployeeAdd_Clicked"
+                Text="新增員工" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

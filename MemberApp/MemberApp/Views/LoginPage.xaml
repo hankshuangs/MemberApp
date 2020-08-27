@@ -10,6 +10,9 @@
     <ContentPage.BindingContext>
         <ViewModels:MainViewModel />
     </ContentPage.BindingContext>
+    <NavigationPage.TitleView>
+        <Label Text="登入" />
+    </NavigationPage.TitleView>
     <StackLayout
         Padding="10"
         Spacing="10"

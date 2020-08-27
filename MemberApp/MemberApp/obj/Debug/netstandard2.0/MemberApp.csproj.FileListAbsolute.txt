@@ -48,3 +48,13 @@ C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\Page2.xaml.g.cs
 C:\Users\Hanks\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\TabbedControlPage.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\Page2.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\TabbedControlPage.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\EmployeeAddPage.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\EmployeeManagePage.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\EmployeeModifyPage.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\MemberAddPage.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\MemberManagePage.xaml.g.cs
+C:\Users\USER\source\repos\MemberApp\MemberApp\MemberApp\obj\Debug\netstandard2.0\Views\MemberModifyPage.xaml.g.cs

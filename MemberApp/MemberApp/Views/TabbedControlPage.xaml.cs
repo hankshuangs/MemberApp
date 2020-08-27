@@ -4,6 +4,7 @@ using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 using MemberApp.ViewModels;
 using System.Collections.Generic;
+//using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
 namespace MemberApp.Views
 {
@@ -19,20 +20,25 @@ namespace MemberApp.Views
 			navHomePage.IconImageSource = "home.png";
 			navHomePage.Title = "首頁";
 
-			NavigationPage navNewMemberPage = new NavigationPage(new NewMemberPage());
-			navNewMemberPage.IconImageSource = "friend.png";
-			navNewMemberPage.Title = "新增";
+			NavigationPage navMemberManagePage = new NavigationPage(new MemberManagePage());
+			navMemberManagePage.IconImageSource = "member.png";
+			navMemberManagePage.Title = "會員管理";
+
+			NavigationPage navEmployeeManagePage = new NavigationPage(new EmployeeManagePage());
+			navEmployeeManagePage.IconImageSource = "friend.png";
+			navEmployeeManagePage.Title = "員工管理";
 
 			NavigationPage navPage1 = new NavigationPage(new Page1());
 			navPage1.IconImageSource = "door.png";
 			navPage1.Title = "離開";
 
 			this.Children.Add(navHomePage);
-			this.Children.Add(navNewMemberPage);
+			this.Children.Add(navMemberManagePage);
+			this.Children.Add(navEmployeeManagePage);
 			this.Children.Add(navPage1);
 
 			On<Android>().SetToolbarPlacement(ToolbarPlacement.Bottom).SetBarItemColor(Color.Black).SetBarSelectedItemColor(Color.Blue);
-
+			//On<iOS>().SetLargeTitleDisplay(LargeTitleDisplayMode.Never);
 		}
     }
 

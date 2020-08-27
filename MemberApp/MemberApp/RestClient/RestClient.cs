@@ -13,8 +13,8 @@ namespace MemberApp.RestClient
     /// </summary>
     public class RestClient<T>
     {
-        //private const string WebServiceUrl = "http://220.134.223.102/api/Staff/";
-        private const string WebServiceUrl = "http://192.168.168.52/api/Staff/";
+        private const string WebServiceUrl = "http://220.134.223.102/api/Staff/";
+        //private const string WebServiceUrl = "http://192.168.168.52/api/Staff/";
 
         public async Task<List<T>> GetAsync()
         {
